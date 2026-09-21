@@ -2,7 +2,7 @@
 
 Scraping 2025-26 NBA stats and salaries from Basketball-Reference with `rvest` to estimate what the market pays for on-court production, and which players are paid well below that rate.
 
-Blog post: *link to be added*
+Blog post: <https://peterjianghaowen.github.io/personalwebsite/blog/posts/post2/>
 
 ## Question
 

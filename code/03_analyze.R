@@ -75,6 +75,7 @@ write_csv(round2(top_overpaid), here("results", "tables", "top_overpaid.csv"))
 write_csv(round2(by_age),       here("results", "tables", "by_age_group.csv"))
 write_csv(round2(model_fit),    here("results", "tables", "model_fit.csv"))
 write_csv(age_coefs,            here("results", "tables", "age_discount_robust.csv"))
+write_csv(tibble(rank_corr = round(rank_corr, 3)), here("results", "tables", "robustness.csv"))
 
 # Figure 1: market-rate curve with 80% prediction band
 grid <- tibble(vorp = seq(min(nba$vorp), max(nba$vorp), length.out = 200))
