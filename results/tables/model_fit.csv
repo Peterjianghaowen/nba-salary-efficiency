@@ -1,0 +1,5 @@
+model,r2,aic
+Linear WS,0.13,486.47
+Spline WS,0.15,485.87
+Linear VORP,0.19,475.23
+Spline VORP,0.22,471.61
